@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Board from "./Board";
 import calculateWinner from "../calculateWinner";
-import Styles from "./Game.module.css";
+import Styles from "../Styles/Game.module.css";
 
 class Game extends Component {
   constructor(props) {
@@ -50,7 +50,7 @@ class Game extends Component {
     });
     const winner = calculateWinner(current.squares);
     let status = winner
-      ? "winner is " + winner
+      ? "Winner is : " + winner
       : "Next Player is : " + (this.state.xIsNext ? "X" : "0");
     return (
       <>

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Square.module.css";
+import styles from "../Styles/Square.module.css";
 
 const Square = ({ onClick, value }) => {
   const square =
