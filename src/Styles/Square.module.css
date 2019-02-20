@@ -20,6 +20,7 @@
 .squareO {
   color: blue;
 }
+
 .square:focus {
   outline: none;
 }

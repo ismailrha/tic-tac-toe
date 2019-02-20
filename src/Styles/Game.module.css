@@ -25,3 +25,9 @@
   width: 275px;
   height: 44px;
 }
+
+ol,
+ul {
+  padding-left: 30px;
+  list-style-type: none;
+}

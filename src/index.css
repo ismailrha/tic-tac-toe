@@ -13,13 +13,3 @@ body {
   width: 100%;
   font-size: 46px;
 }
-
-ol,
-ul {
-  padding-left: 30px;
-  list-style-type: none;
-}
-
-.kbd-navigation .square:focus {
-  background: #ddd;
-}

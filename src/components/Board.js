@@ -1,6 +1,7 @@
 import React from "react";
 import Square from "./Square";
 import styles from "../Styles/Board.module.css";
+
 const Board = ({ squares, onClick }) => {
   const renderSquare = i => {
     return <Square value={squares[i]} onClick={() => onClick(i)} />;
